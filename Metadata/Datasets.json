@@ -1,0 +1,198 @@
+{
+    "Claimbuster":
+    {
+        "Name" : "Claimbuster",
+        "Url" : "https://zenodo.org/record/3836810#.Yv3k8OxBz0q",
+        "Dataformat" : "zip",
+        "Size" : 23533,
+        "Num_labels" : 3,
+        "Labels" : {
+            "Check-worthy Factual Sentence" : 1,
+            "Unimportant Factual Sentence" : 0,
+            "Non-factual Sentence" : -1
+        },
+        "Turn_Factual" :{
+            "1" : 1,
+            "0" : 1,
+            "-1" : 0
+        },
+        "Turn_Checkworthy" :{
+            "1" : 1,
+            "0" : 0,
+            "-1" : 0
+        },
+        "Source" : "US-Presidential Debates",
+        "Period" : {
+            "Start" : "01-01-1960",
+            "End" : "01-01-2016"
+        },
+        "Text_Type" : "Spoken",
+        "Task_Type" : "Factchecking",
+        "Language" : ["EN"]
+    },
+    "GermEval":
+    {
+        "Name" : "GermEval",
+        "Url" : "https://github.com/germeval2021toxic/SharedTask/tree/main/Data%20Sets",
+        "Dataformat" : "zip",
+        "Size" : 4188,
+        "Num_labels" : 2,
+        "Labels" : {
+            "Fact Claiming" : 1,
+            "Not Fact Claiming" : 0
+        },
+        "Turn_Factual" :{
+            "1" : 1,
+            "0" : 0
+        },
+        "Turn_Checkworthy" :{
+            "1" : 1,
+            "0" : 0
+        },
+        "Source" : "Facebook User Comments",
+        "Period" : {
+            "Start" : "01-01-2019",
+            "End" : "01-12-2020"
+        },
+        "Text_Type" : "SocialMedia",
+        "Task_Type" : "Factchecking",
+        "Language" : ["DE"]
+    },
+    "Checkthat2021":
+    {
+        "Name" : "Checkthat2021",
+        "Url" : "https://gitlab.com/checkthat_lab/clef2021-checkthat-lab/-/blob/master/task1/data/subtask-1b--english/v1.zip",
+        "Dataformat" : "zip",
+        "Size" : 45619,
+        "Num_labels" : 2,
+        "Labels" : {
+            "Check-worthy" : 1,
+            "Non-check-worthy" : 0
+        },
+        "Turn_Factual" :{
+            "1" : 1,
+            "0" : 0
+        },
+        "Turn_Checkworthy" :{
+            "1" : 1,
+            "0" : 0
+        },
+        "Source" : "US-Presidential Debates",
+        "Period" : {
+            "Start" : "01-01-2012",
+            "End" : "01-01-2018"
+        },
+        "Text_Type" : "Spoken",
+        "Task_Type" : "Factchecking",
+        "Language" : ["EN"]
+    },
+    "Checkthat2022":
+    {
+        "Name" : "Checkthat2022",
+        "Url" : "https://gitlab.com/checkthat_lab/clef2022-checkthat-lab/clef2022-checkthat-lab/-/blob/main/task1/data/subtasks-english/CT22_english_1A_checkworthy.zip",
+        "Dataformat" : "zip",
+        "Size" : 2891,
+        "Num_labels" : 2,
+        "Labels" : {
+            "Check-worthy" : 1,
+            "Non-check-worthy" : 0
+        },
+        "Turn_Factual" :{
+            "1" : 1,
+            "0" : 0
+        },
+        "Turn_Checkworthy" :{
+            "1" : 1,
+            "0" : 0
+        },
+        "Source" : "Tweets on COVID19",
+        "Period" : {
+            "Start" : "01-01-2020",
+            "End" : "01-03-2021"
+        },
+        "Text_Type" : "SocialMedia",
+        "Task_Type" : "Factchecking",
+        "Language" : ["EN"]
+    },
+    "Checkthat2019":
+    {
+        "Name" : "Checkthat2019",
+        "Url" : "https://github.com/apepa/clef2019-factchecking-task1/tree/master/data",
+        "Dataformat" : "zip",
+        "Size" : 23501,
+        "Num_labels" : 2,
+        "Labels" : {
+            "Check-worthy" : 1,
+            "Non-check-worthy" : 0
+        },
+        "Turn_Factual" :{
+            "1" : 1,
+            "0" : 0
+        },
+        "Turn_Checkworthy" :{
+            "1" : 1,
+            "0" : 0
+        },
+        "Source" : "US-Presidential Debates",
+        "Period" : {
+            "Start" : "19-12-2015",
+            "End" : "15-02-2019"
+        },
+        "Text_Type" : "Spoken/SocialMedia/News",
+        "Task_Type" : "Factchecking/Argument",
+        "Language" : ["EN"]
+    },
+    "MultiFC":
+    {
+        "Name" : "MultiFC",
+        "Url" : "https://competitions.codalab.org/competitions/21163",
+        "Dataformat" : "zip",
+        "Size" : 34839,
+        "Num_labels" : 1,
+        "Labels" : {
+            "Check-worthy" : 1
+        },
+        "Turn_Factual" :{
+            "1" : 1
+        },
+        "Turn_Checkworthy" :{
+            "1" : 1
+        },
+        "Source" : "Articles from Fact-Checking Organizations",
+        "Period" : {
+            "Start" : "01-01-2000",
+            "End" : "01-01-2000"
+        },
+        "Text_Type" : "News",
+        "Task_Type" : "Factchecking",
+        "Language" : ["EN"]
+    },
+    "CW-USPD-2016":
+    {
+        "Name" : "Claimrank",
+        "Url" : "https://github.com/apepa/claim-rank/tree/master/data",
+        "Dataformat" : "zip",
+        "Size" : 7787,
+        "Num_labels" : 2,
+        "Labels" : {
+            "Check-worthy" : 1,
+            "Non-check-worthy" : 0
+        },
+        "Turn_Factual" :{
+            "1" : 1,
+            "0" : 0
+        },
+        "Turn_Checkworthy" :{
+            "1" : 1,
+            "0" : 0
+        },
+        "Source" : "US-Presidential Debates",
+        "Period" : {
+            "Start" : "01-01-2016",
+            "End" : "31-12-2016"
+        },
+        "Text_Type" : "Spoken",
+        "Task_Type" : "Factchecking",
+        "Language" : ["EN"]
+    }
+}

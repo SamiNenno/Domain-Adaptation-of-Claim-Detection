@@ -1,0 +1,28 @@
+{
+    "claimbuster":
+    {
+        "checkworthy" : ["claimrank","checkthat2019", "checkthat2021", "checkthat2022", "multifc", "germeval"],
+        "factual" : ["germeval"]
+    },
+    "germeval":
+    {
+        "factual" : ["claimbuster", "multifc"],
+        "checkworthy" : ["claimrank","claimbuster", "checkthat2019", "checkthat2021", "checkthat2022", "multifc"]
+    },
+    "checkthat2019":
+    {
+        "checkworthy" : ["claimrank","claimbuster", "checkthat2021", "checkthat2022", "multifc", "germeval"]
+    },
+    "checkthat2021":
+    {
+        "checkworthy" : ["claimrank","claimbuster", "checkthat2019", "checkthat2022", "multifc", "germeval"]
+    },
+    "checkthat2022":
+    {
+        "checkworthy" : ["claimrank","claimbuster", "checkthat2019", "checkthat2021", "multifc", "germeval"]
+    },
+    "claimrank":
+    {
+        "checkworthy" : ["checkthat2019","claimbuster", "checkthat2021", "checkthat2022", "multifc", "germeval"]
+    }
+}

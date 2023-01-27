@@ -1,0 +1,8 @@
+Dataset,Unit,Size,Period,Language,Source,Text Type,Labels,Factual,Checkable,Checkworthy,Reference
+Claimbuster,Sentence,"23,533",1960 - 2016,English,US-Presidential Debates.,Spoken,3,Yes,No,Yes,Arslan et al. 2020
+Claim/Non-Claim,Sentence,"4,777",?,English,UK political TV-shows.,Spoken,7 (2),Yes,Yes,No,Konstantinovskiy et al. 2021
+Checkthat 2019,Sentence,"23,501",2015 - 2019,English,"US -Presidential Debates, Speeches, Press Conferences, and Posts.",Spoken/Written,2,Yes,No,Yes,Elsayed et al. 2019
+Checkthat 2021,Sentence,"45,619",2012 - 2018,English,US-Presidential Debates and Speeches.,Spoken,2,Yes,No,Yes,Shaar et al. 2021
+Checkthat 2022,Tweet,"2,891",2020 - 2021,English,Tweets on COVID-19.,Written,2,Yes,Yes,Yes,Alam et al. 2021
+GermEval,Sentence,"4,188",2019 - 2020,German,Facebook Comments.,Written,2,Yes,Yes,No,Risch et al. 2021
+MultiFC,Textual Span,"34,839",?,English,Websites of English language fact-checking organisations.,Written,1,Yes,No,Yes,Augenstein et al. 2019
