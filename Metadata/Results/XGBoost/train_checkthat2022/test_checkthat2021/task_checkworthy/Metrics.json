@@ -1,0 +1,15 @@
+{
+      "Model": "XGBoost",
+      "Train": "checkthat2022",
+      "Test": "checkthat2021",
+      "Task": "checkworthy",
+      "Time": "2022-10-10 09:49:51.447526",
+      "Accuracy": 0.8257199602780536,
+      "F1": 0.12414223331253899,
+      "Precision": 0.09323754490082774,
+      "Recall": 0.18569206842923794,
+      "Matthews Correlation": 0.04190884319255181,
+      "Chi Square (p-value)": 4.042334381908909e-20,
+      "AUC": 0.5719240571136818,
+      "Best Cutoff": 0.051676806062459946
+}
