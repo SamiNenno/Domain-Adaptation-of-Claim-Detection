@@ -1,0 +1,4 @@
+index,Label,label_name,dataset
+-1,15416,Non-factual Sentence,Claimbuster
+1,5651,Check-worthy Factual Sentence,Claimbuster
+0,2466,Unimportant Factual Sentence,Claimbuster

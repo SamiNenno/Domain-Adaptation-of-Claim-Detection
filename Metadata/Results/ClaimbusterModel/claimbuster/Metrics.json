@@ -1,0 +1,15 @@
+{
+      "Model": "ClaimbusterTransformer",
+      "Train": "claimbuster",
+      "Task": "checkworthy",
+      "Test": "claimbuster",
+      "Time": "2022-11-08 19:38:05.810964",
+      "Accuracy": 0.8527599541069987,
+      "F1": 0.728128677912907,
+      "Precision": 0.6540738652382295,
+      "Recall": 0.8210936117501327,
+      "Matthews Correlation": 0.6365829720915799,
+      "Chi Square (p-value)": 0.0,
+      "AUC": null,
+      "Best Cutoff": null
+}

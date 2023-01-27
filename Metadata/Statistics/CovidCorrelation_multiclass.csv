@@ -1,0 +1,4 @@
+Measure,Factuality,False Information,Public Interest,Harmful Ordinal,Checkworthy,Harmful Categorical,Government,False Public,Harmful Public
+Matthew Correlation,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+Chi Square,1.0,1.2947266560812015e-193,1.0213581539035775e-39,1.3248979455267998e-268,0.0,9.608238228161258e-244,1.2048358072577132e-253,1.0,1.0
+Pearson Correlation,,0.33046957779314606,0.17878435419623062,0.41579036404174036,1.0,0.45065467379847224,0.4541629874285436,,

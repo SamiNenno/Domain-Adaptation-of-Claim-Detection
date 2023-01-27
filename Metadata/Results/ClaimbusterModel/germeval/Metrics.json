@@ -1,0 +1,15 @@
+{
+      "Model": "ClaimbusterTransformer",
+      "Train": "claimbuster",
+      "Task": "checkworthy",
+      "Test": "germeval",
+      "Time": "2022-10-02 16:54:59.478162",
+      "Accuracy": 0.6635625596943648,
+      "F1": 0.03028217481073641,
+      "Precision": 0.6111111111111112,
+      "Recall": 0.015525758645024701,
+      "Matthews Correlation": 0.053679966936005984,
+      "Chi Square (p-value)": 0.000977239507445344,
+      "AUC": null,
+      "Best Cutoff": null
+}
