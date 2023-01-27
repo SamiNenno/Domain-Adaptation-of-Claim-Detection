@@ -1,0 +1,15 @@
+{
+      "Model": "logreg",
+      "Train": "checkthat2022",
+      "Test": "multifc",
+      "Task": "checkworthy",
+      "Time": "2022-11-04 09:58:26.996813",
+      "Accuracy": 0.256457511446425,
+      "F1": 0.4082231338665689,
+      "Precision": 1.0,
+      "Recall": 0.256457511446425,
+      "Matthews Correlation": 0.0,
+      "Chi Square (p-value)": 1.0,
+      "AUC": NaN,
+      "Best Cutoff": 2.0
+}
