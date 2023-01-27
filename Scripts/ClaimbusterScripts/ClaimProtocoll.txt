@@ -1,0 +1,26 @@
+----------------------
+Dataset 1/7: claimrank
+----------------------
+----------------------
+Dataset 2/7: checkthat2021
+----------------------
+----------------------
+Dataset 3/7: checkthat2019
+----------------------
+----------------------
+Dataset 4/7: checkthat2022
+----------------------
+----------------------
+Dataset 5/7: claimbuster
+----------------------
+----------------------
+Dataset 6/7: germeval
+----------------------
+----------------------
+Dataset 7/7: multifc
+----------------------
+could not convert string to float: 'list index out of range'
+could not convert string to float: 'list index out of range'
+could not convert string to float: 'list index out of range'
+could not convert string to float: 'list index out of range'
+could not convert string to float: 'list index out of range'

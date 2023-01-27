@@ -1,0 +1,1023 @@
+Start Testing!
+
+
+
+-----------------------------------
+-----------------------------------
+-----------------------------------
+Train on checkthat2019
+Time: 02/11/2022 07:24:59
+-----------------------------------
+-----------------------------------
+-----------------------------------
+
+
+
+{
+      "modellanguage": "multilingual",
+      "modelsize": "base",
+      "model": "xlm-roberta-base",
+      "dataset": "checkthat2019",
+      "task": "checkworthy",
+      "labels": 2,
+      "eval_metric": "eval_f1",
+      "per_device_train_batch_size": 32,
+      "per_device_eval_batch_size": 32,
+      "num_train_epochs": 7,
+      "max_steps": -1,
+      "weight_decay": 0.09127267288786131,
+      "learning_rate": 3.0990257265289516e-05
+}
+Augmented dataset already exists!
+Original numner: 440
+With Augmentation: 3209
+{'loss': 0.2587, 'learning_rate': 2.6891016886282964e-05, 'epoch': 0.93}
+{'eval_loss': 0.19998115301132202, 'eval_f1': 0.8420545269262448, 'eval_runtime': 3.5383, 'eval_samples_per_second': 542.352, 'eval_steps_per_second': 67.829, 'epoch': 1.0}
+{'loss': 0.136, 'learning_rate': 2.2791776507276416e-05, 'epoch': 1.85}
+{'eval_loss': 0.13010048866271973, 'eval_f1': 0.9142855641472303, 'eval_runtime': 3.5288, 'eval_samples_per_second': 543.806, 'eval_steps_per_second': 68.011, 'epoch': 2.0}
+{'loss': 0.072, 'learning_rate': 1.8692536128269865e-05, 'epoch': 2.78}
+{'eval_loss': 0.13987994194030762, 'eval_f1': 0.9469353700631233, 'eval_runtime': 3.5271, 'eval_samples_per_second': 544.078, 'eval_steps_per_second': 68.045, 'epoch': 3.0}
+{'loss': 0.0456, 'learning_rate': 1.4593295749263317e-05, 'epoch': 3.7}
+{'eval_loss': 0.11109393835067749, 'eval_f1': 0.9599331871802903, 'eval_runtime': 3.5226, 'eval_samples_per_second': 544.776, 'eval_steps_per_second': 68.132, 'epoch': 4.0}
+{'loss': 0.0257, 'learning_rate': 1.0494055370256767e-05, 'epoch': 4.63}
+{'eval_loss': 0.11579340696334839, 'eval_f1': 0.9650018607379367, 'eval_runtime': 3.5307, 'eval_samples_per_second': 543.518, 'eval_steps_per_second': 67.975, 'epoch': 5.0}
+{'loss': 0.0129, 'learning_rate': 6.394814991250217e-06, 'epoch': 5.56}
+{'eval_loss': 0.12214991450309753, 'eval_f1': 0.9633879131829637, 'eval_runtime': 3.5113, 'eval_samples_per_second': 546.524, 'eval_steps_per_second': 68.351, 'epoch': 6.0}
+{'loss': 0.0093, 'learning_rate': 2.2955746122436676e-06, 'epoch': 6.48}
+{'eval_loss': 0.12396383285522461, 'eval_f1': 0.9685456244160697, 'eval_runtime': 3.5219, 'eval_samples_per_second': 544.879, 'eval_steps_per_second': 68.145, 'epoch': 7.0}
+{'train_runtime': 546.7701, 'train_samples_per_second': 221.111, 'train_steps_per_second': 6.913, 'train_loss': 0.07478784133517553, 'epoch': 7.0}
+
+
+---------------------------
+Testrun: 1/6
+Time: 02/11/2022 07:35:57
+Trainset: checkthat2019
+Testset: claimrank
+Task Type: checkworthy
+---------------------------
+
+
+{
+      "Model": "xlm-roberta-base",
+      "Train": "checkthat2019",
+      "Test": "claimrank",
+      "Task": "checkworthy",
+      "Time": "2022-11-02 07:36:09.656925",
+      "Accuracy": 0.8740208039039424,
+      "F1": 0.25285605483625284,
+      "Precision": 0.772093023255814,
+      "Recall": 0.151183970856102,
+      "Matthews Correlation": 0.3055573935088967,
+      "Chi Square (p-value)": 5.751138489484231e-159,
+      "AUC": 0.7107871009168466,
+      "Best Cutoff": 1.4976480997574981e-05
+}
+
+
+---------------------------
+Testrun: 2/6
+Time: 02/11/2022 07:36:09
+Trainset: checkthat2019
+Testset: claimbuster
+Task Type: checkworthy
+---------------------------
+
+
+{
+      "Model": "xlm-roberta-base",
+      "Train": "checkthat2019",
+      "Test": "claimbuster",
+      "Task": "checkworthy",
+      "Time": "2022-11-02 07:36:46.839733",
+      "Accuracy": 0.772234734203034,
+      "F1": 0.18367346938775508,
+      "Precision": 0.659016393442623,
+      "Recall": 0.10670677756149353,
+      "Matthews Correlation": 0.19723563569751396,
+      "Chi Square (p-value)": 1.3994041035979258e-200,
+      "AUC": 0.7457258590008378,
+      "Best Cutoff": 1.6180665625142865e-05
+}
+
+
+---------------------------
+Testrun: 3/6
+Time: 02/11/2022 07:36:47
+Trainset: checkthat2019
+Testset: checkthat2021
+Task Type: checkworthy
+---------------------------
+
+
+{
+      "Model": "xlm-roberta-base",
+      "Train": "checkthat2019",
+      "Test": "checkthat2021",
+      "Task": "checkworthy",
+      "Time": "2022-11-02 07:37:49.807355",
+      "Accuracy": 0.978495802187685,
+      "F1": 0.13720316622691292,
+      "Precision": 0.12206572769953052,
+      "Recall": 0.1566265060240964,
+      "Matthews Correlation": 0.12749374213712442,
+      "Chi Square (p-value)": 5.119392120942044e-161,
+      "AUC": 0.6848098050320561,
+      "Best Cutoff": 1.651185448281467e-05
+}
+
+
+---------------------------
+Testrun: 4/6
+Time: 02/11/2022 07:37:50
+Trainset: checkthat2019
+Testset: checkthat2022
+Task Type: checkworthy
+---------------------------
+
+
+{
+      "Model": "xlm-roberta-base",
+      "Train": "checkthat2019",
+      "Test": "checkthat2022",
+      "Task": "checkworthy",
+      "Time": "2022-11-02 07:37:58.843331",
+      "Accuracy": 0.7132480110688343,
+      "F1": 0.3085904920767306,
+      "Precision": 0.31951640759930916,
+      "Recall": 0.29838709677419356,
+      "Matthews Correlation": 0.12809055645053952,
+      "Chi Square (p-value)": 8.458134696044684e-12,
+      "AUC": 0.6077122484055624,
+      "Best Cutoff": 5.543810038943775e-05
+}
+
+
+---------------------------
+Testrun: 5/6
+Time: 02/11/2022 07:37:59
+Trainset: checkthat2019
+Testset: multifc
+Task Type: checkworthy
+---------------------------
+
+
+{
+      "Model": "xlm-roberta-base",
+      "Train": "checkthat2019",
+      "Test": "multifc",
+      "Task": "checkworthy",
+      "Time": "2022-11-02 07:38:57.178173",
+      "Accuracy": 0.07758546456557307,
+      "F1": 0.14399872143199616,
+      "Precision": 1.0,
+      "Recall": 0.07758546456557307,
+      "Matthews Correlation": 0.0,
+      "Chi Square (p-value)": 1.0,
+      "AUC": NaN,
+      "Best Cutoff": 1.9999853372573853
+}
+
+
+---------------------------
+Testrun: 6/6
+Time: 02/11/2022 07:38:57
+Trainset: checkthat2019
+Testset: germeval
+Task Type: checkworthy
+---------------------------
+
+
+{
+      "Model": "xlm-roberta-base",
+      "Train": "checkthat2019",
+      "Test": "germeval",
+      "Task": "checkworthy",
+      "Time": "2022-11-02 07:39:11.530835",
+      "Accuracy": 0.6716809933142311,
+      "F1": 0.2382271468144044,
+      "Precision": 0.5541237113402062,
+      "Recall": 0.15172900494001412,
+      "Matthews Correlation": 0.1457239017199795,
+      "Chi Square (p-value)": 6.972460524206213e-21,
+      "AUC": 0.6447360210996697,
+      "Best Cutoff": 2.267419040435925e-05
+}
+
+
+
+-----------------------------------
+-----------------------------------
+-----------------------------------
+Train on claimrank
+Time: 02/11/2022 07:39:11
+-----------------------------------
+-----------------------------------
+-----------------------------------
+
+
+
+{
+      "modellanguage": "multilingual",
+      "modelsize": "base",
+      "model": "xlm-roberta-base",
+      "dataset": "claimrank",
+      "task": "checkworthy",
+      "labels": 2,
+      "eval_metric": "eval_acc",
+      "per_device_train_batch_size": 64,
+      "per_device_eval_batch_size": 32,
+      "num_train_epochs": 6,
+      "max_steps": -1,
+      "weight_decay": 0.2852142919229748,
+      "learning_rate": 3.927975767245621e-05
+}
+{'eval_loss': 0.3890422284603119, 'eval_accuracy': 0.8587155963302753, 'eval_runtime': 1.7678, 'eval_samples_per_second': 308.299, 'eval_steps_per_second': 39.032, 'epoch': 1.0}
+{'eval_loss': 0.3858570456504822, 'eval_accuracy': 0.8587155963302753, 'eval_runtime': 1.7785, 'eval_samples_per_second': 306.445, 'eval_steps_per_second': 38.798, 'epoch': 2.0}
+{'eval_loss': 0.3542340397834778, 'eval_accuracy': 0.8477064220183487, 'eval_runtime': 1.7511, 'eval_samples_per_second': 311.232, 'eval_steps_per_second': 39.404, 'epoch': 3.0}
+{'eval_loss': 0.4127660393714905, 'eval_accuracy': 0.8550458715596331, 'eval_runtime': 1.7638, 'eval_samples_per_second': 308.99, 'eval_steps_per_second': 39.12, 'epoch': 4.0}
+{'eval_loss': 0.39523476362228394, 'eval_accuracy': 0.8128440366972477, 'eval_runtime': 1.7786, 'eval_samples_per_second': 306.418, 'eval_steps_per_second': 38.794, 'epoch': 5.0}
+{'eval_loss': 0.4496930241584778, 'eval_accuracy': 0.8330275229357799, 'eval_runtime': 1.7541, 'eval_samples_per_second': 310.694, 'eval_steps_per_second': 39.336, 'epoch': 6.0}
+{'train_runtime': 127.3746, 'train_samples_per_second': 231.098, 'train_steps_per_second': 3.627, 'train_loss': 0.31418986134714894, 'epoch': 6.0}
+
+
+---------------------------
+Testrun: 1/6
+Time: 02/11/2022 07:41:50
+Trainset: claimrank
+Testset: checkthat2019
+Task Type: checkworthy
+---------------------------
+
+
+{
+      "Model": "xlm-roberta-base",
+      "Train": "claimrank",
+      "Test": "checkthat2019",
+      "Task": "checkworthy",
+      "Time": "2022-11-02 07:42:23.033259",
+      "Accuracy": 0.8911110165524871,
+      "F1": 0.18736106700539853,
+      "Precision": 0.11465215701515741,
+      "Recall": 0.5121527777777778,
+      "Matthews Correlation": 0.20441198431108148,
+      "Chi Square (p-value)": 1.2367035278709174e-214,
+      "AUC": 0.8352001544892766,
+      "Best Cutoff": 0.03471767529845238
+}
+
+
+---------------------------
+Testrun: 2/6
+Time: 02/11/2022 07:42:23
+Trainset: claimrank
+Testset: claimbuster
+Task Type: checkworthy
+---------------------------
+
+
+{
+      "Model": "xlm-roberta-base",
+      "Train": "claimrank",
+      "Test": "claimbuster",
+      "Task": "checkworthy",
+      "Time": "2022-11-02 07:43:00.214824",
+      "Accuracy": 0.8180002549611184,
+      "F1": 0.5105702205462233,
+      "Precision": 0.7206451612903226,
+      "Recall": 0.3953282604848699,
+      "Matthews Correlation": 0.43815490219695585,
+      "Chi Square (p-value)": 0.0,
+      "AUC": 0.8415238082024612,
+      "Best Cutoff": 0.041296590119600296
+}
+
+
+---------------------------
+Testrun: 3/6
+Time: 02/11/2022 07:43:00
+Trainset: claimrank
+Testset: checkthat2021
+Task Type: checkworthy
+---------------------------
+
+
+{
+      "Model": "xlm-roberta-base",
+      "Train": "claimrank",
+      "Test": "checkthat2021",
+      "Task": "checkworthy",
+      "Time": "2022-11-02 07:44:03.058801",
+      "Accuracy": 0.9018610666608211,
+      "F1": 0.09937638302152485,
+      "Precision": 0.05522021014978761,
+      "Recall": 0.4959839357429719,
+      "Matthews Correlation": 0.14057802150932522,
+      "Chi Square (p-value)": 4.4333557078330756e-197,
+      "AUC": 0.8051030388703146,
+      "Best Cutoff": 0.09864099323749542
+}
+
+
+---------------------------
+Testrun: 4/6
+Time: 02/11/2022 07:44:03
+Trainset: claimrank
+Testset: checkthat2022
+Task Type: checkworthy
+---------------------------
+
+
+{
+      "Model": "xlm-roberta-base",
+      "Train": "claimrank",
+      "Test": "checkthat2022",
+      "Task": "checkworthy",
+      "Time": "2022-11-02 07:44:11.878546",
+      "Accuracy": 0.638187478381183,
+      "F1": 0.3939745075318656,
+      "Precision": 0.3074141048824593,
+      "Recall": 0.5483870967741935,
+      "Matthews Correlation": 0.17826945807973493,
+      "Chi Square (p-value)": 1.4480250378795012e-21,
+      "AUC": 0.6556810272581356,
+      "Best Cutoff": 0.3574124872684479
+}
+
+
+---------------------------
+Testrun: 5/6
+Time: 02/11/2022 07:44:12
+Trainset: claimrank
+Testset: multifc
+Task Type: checkworthy
+---------------------------
+
+
+{
+      "Model": "xlm-roberta-base",
+      "Train": "claimrank",
+      "Test": "multifc",
+      "Task": "checkworthy",
+      "Time": "2022-11-02 07:45:10.441207",
+      "Accuracy": 0.4269927380234794,
+      "F1": 0.5984511716785678,
+      "Precision": 1.0,
+      "Recall": 0.4269927380234794,
+      "Matthews Correlation": 0.0,
+      "Chi Square (p-value)": 1.0,
+      "AUC": NaN,
+      "Best Cutoff": 1.9285497665405273
+}
+
+
+---------------------------
+Testrun: 6/6
+Time: 02/11/2022 07:45:10
+Trainset: claimrank
+Testset: germeval
+Task Type: checkworthy
+---------------------------
+
+
+{
+      "Model": "xlm-roberta-base",
+      "Train": "claimrank",
+      "Test": "germeval",
+      "Task": "checkworthy",
+      "Time": "2022-11-02 07:45:24.836078",
+      "Accuracy": 0.6883954154727794,
+      "F1": 0.21338155515370705,
+      "Precision": 0.731404958677686,
+      "Recall": 0.12491178546224418,
+      "Matthews Correlation": 0.20572567343392328,
+      "Chi Square (p-value)": 4.919835463926386e-40,
+      "AUC": 0.7675840129662319,
+      "Best Cutoff": 0.024966998025774956
+}
+
+
+
+-----------------------------------
+-----------------------------------
+-----------------------------------
+Train on checkthat2022
+Time: 02/11/2022 07:45:25
+-----------------------------------
+-----------------------------------
+-----------------------------------
+
+
+
+{
+      "modellanguage": "multilingual",
+      "modelsize": "base",
+      "model": "xlm-roberta-base",
+      "dataset": "checkthat2022",
+      "task": "checkworthy",
+      "labels": 2,
+      "eval_metric": "eval_f1",
+      "per_device_train_batch_size": 16,
+      "per_device_eval_batch_size": 32,
+      "num_train_epochs": 7,
+      "max_steps": -1,
+      "weight_decay": 0.13143264895852028,
+      "learning_rate": 8.314767776485432e-06
+}
+{'eval_loss': 0.4189695417881012, 'eval_f1': 0.44063324538258575, 'eval_runtime': 1.5489, 'eval_samples_per_second': 136.869, 'eval_steps_per_second': 17.431, 'epoch': 1.0}
+{'eval_loss': 0.34167012572288513, 'eval_f1': 0.7072674418604651, 'eval_runtime': 1.5209, 'eval_samples_per_second': 139.39, 'eval_steps_per_second': 17.752, 'epoch': 2.0}
+{'eval_loss': 0.37545642256736755, 'eval_f1': 0.6497025776602776, 'eval_runtime': 1.5169, 'eval_samples_per_second': 139.758, 'eval_steps_per_second': 17.799, 'epoch': 3.0}
+{'eval_loss': 0.42839115858078003, 'eval_f1': 0.6821338383838383, 'eval_runtime': 1.5245, 'eval_samples_per_second': 139.064, 'eval_steps_per_second': 17.711, 'epoch': 4.0}
+{'loss': 0.3894, 'learning_rate': 3.365501242863151e-06, 'epoch': 4.17}
+{'eval_loss': 0.4304105341434479, 'eval_f1': 0.7114337568058076, 'eval_runtime': 1.5201, 'eval_samples_per_second': 139.467, 'eval_steps_per_second': 17.762, 'epoch': 5.0}
+{'eval_loss': 0.42460793256759644, 'eval_f1': 0.7589578663548062, 'eval_runtime': 1.5436, 'eval_samples_per_second': 137.34, 'eval_steps_per_second': 17.491, 'epoch': 6.0}
+{'eval_loss': 0.4929851293563843, 'eval_f1': 0.7064261387027959, 'eval_runtime': 1.529, 'eval_samples_per_second': 138.652, 'eval_steps_per_second': 17.658, 'epoch': 7.0}
+{'train_runtime': 114.3428, 'train_samples_per_second': 116.929, 'train_steps_per_second': 7.346, 'train_loss': 0.3220083055042085, 'epoch': 7.0}
+
+
+---------------------------
+Testrun: 1/6
+Time: 02/11/2022 07:47:49
+Trainset: checkthat2022
+Testset: claimrank
+Task Type: checkworthy
+---------------------------
+
+
+{
+      "Model": "xlm-roberta-base",
+      "Train": "checkthat2022",
+      "Test": "claimrank",
+      "Task": "checkworthy",
+      "Time": "2022-11-02 07:48:01.339123",
+      "Accuracy": 0.7882368049312958,
+      "F1": 0.31718426501035196,
+      "Precision": 0.29081245254365984,
+      "Recall": 0.348816029143898,
+      "Matthews Correlation": 0.19420695650243788,
+      "Chi Square (p-value)": 1.6403165078007847e-65,
+      "AUC": 0.6505370941771296,
+      "Best Cutoff": 0.11814820766448975
+}
+
+
+---------------------------
+Testrun: 2/6
+Time: 02/11/2022 07:48:01
+Trainset: checkthat2022
+Testset: claimbuster
+Task Type: checkworthy
+---------------------------
+
+
+{
+      "Model": "xlm-roberta-base",
+      "Train": "checkthat2022",
+      "Test": "claimbuster",
+      "Task": "checkworthy",
+      "Time": "2022-11-02 07:48:38.523321",
+      "Accuracy": 0.7299536820634853,
+      "F1": 0.3707297752252698,
+      "Precision": 0.420863309352518,
+      "Recall": 0.3312688019819501,
+      "Matthews Correlation": 0.2042579595733133,
+      "Chi Square (p-value)": 2.949206008093724e-215,
+      "AUC": 0.6419865974452432,
+      "Best Cutoff": 0.10428977757692337
+}
+
+
+---------------------------
+Testrun: 3/6
+Time: 02/11/2022 07:48:38
+Trainset: checkthat2022
+Testset: checkthat2019
+Task Type: checkworthy
+---------------------------
+
+
+{
+      "Model": "xlm-roberta-base",
+      "Train": "checkthat2022",
+      "Test": "checkthat2019",
+      "Task": "checkworthy",
+      "Time": "2022-11-02 07:49:12.017707",
+      "Accuracy": 0.8386026126547806,
+      "F1": 0.09453330150393889,
+      "Precision": 0.05480210351508442,
+      "Recall": 0.34375,
+      "Matthews Correlation": 0.08350146355613781,
+      "Chi Square (p-value)": 3.439894984837098e-37,
+      "AUC": 0.6513397779595298,
+      "Best Cutoff": 0.11050191521644592
+}
+
+
+---------------------------
+Testrun: 4/6
+Time: 02/11/2022 07:49:12
+Trainset: checkthat2022
+Testset: checkthat2021
+Task Type: checkworthy
+---------------------------
+
+
+{
+      "Model": "xlm-roberta-base",
+      "Train": "checkthat2022",
+      "Test": "checkthat2021",
+      "Task": "checkworthy",
+      "Time": "2022-11-02 07:50:15.022666",
+      "Accuracy": 0.843617790832767,
+      "F1": 0.05082490686535391,
+      "Precision": 0.027215730977486464,
+      "Recall": 0.38353413654618473,
+      "Matthews Correlation": 0.0668830609872507,
+      "Chi Square (p-value)": 6.610831187475478e-46,
+      "AUC": 0.6489400566740267,
+      "Best Cutoff": 0.19259771704673767
+}
+
+
+---------------------------
+Testrun: 5/6
+Time: 02/11/2022 07:50:15
+Trainset: checkthat2022
+Testset: multifc
+Task Type: checkworthy
+---------------------------
+
+
+{
+      "Model": "xlm-roberta-base",
+      "Train": "checkthat2022",
+      "Test": "multifc",
+      "Task": "checkworthy",
+      "Time": "2022-11-02 07:51:13.807352",
+      "Accuracy": 0.3806653463072993,
+      "F1": 0.5514230473378932,
+      "Precision": 1.0,
+      "Recall": 0.3806653463072993,
+      "Matthews Correlation": 0.0,
+      "Chi Square (p-value)": 1.0,
+      "AUC": NaN,
+      "Best Cutoff": 1.9619876146316528
+}
+
+
+---------------------------
+Testrun: 6/6
+Time: 02/11/2022 07:51:14
+Trainset: checkthat2022
+Testset: germeval
+Task Type: checkworthy
+---------------------------
+
+
+{
+      "Model": "xlm-roberta-base",
+      "Train": "checkthat2022",
+      "Test": "germeval",
+      "Task": "checkworthy",
+      "Time": "2022-11-02 07:51:28.211407",
+      "Accuracy": 0.6134192932187201,
+      "F1": 0.5130827067669173,
+      "Precision": 0.4470649895178197,
+      "Recall": 0.6019760056457304,
+      "Matthews Correlation": 0.21019579458823692,
+      "Chi Square (p-value)": 6.033706815361971e-42,
+      "AUC": 0.6413782020508305,
+      "Best Cutoff": 0.5353976488113403
+}
+
+
+
+-----------------------------------
+-----------------------------------
+-----------------------------------
+Train on claimbuster
+Time: 02/11/2022 07:51:28
+-----------------------------------
+-----------------------------------
+-----------------------------------
+
+
+
+{
+      "modellanguage": "multilingual",
+      "modelsize": "base",
+      "model": "xlm-roberta-base",
+      "dataset": "claimbuster",
+      "task": "checkworthy",
+      "labels": 2,
+      "eval_metric": "eval_acc",
+      "per_device_train_batch_size": 32,
+      "per_device_eval_batch_size": 32,
+      "num_train_epochs": 7,
+      "max_steps": -1,
+      "weight_decay": 0.05616671055927714,
+      "learning_rate": 1.2991824650758485e-05
+}
+{'eval_loss': 0.3157503306865692, 'eval_accuracy': 0.8652912621359223, 'eval_runtime': 3.3247, 'eval_samples_per_second': 495.683, 'eval_steps_per_second': 61.96, 'epoch': 1.0}
+{'loss': 0.3693, 'learning_rate': 1.0991851644176207e-05, 'epoch': 1.08}
+{'eval_loss': 0.3558337390422821, 'eval_accuracy': 0.8616504854368932, 'eval_runtime': 3.3122, 'eval_samples_per_second': 497.556, 'eval_steps_per_second': 62.194, 'epoch': 2.0}
+{'loss': 0.2526, 'learning_rate': 8.991878637593927e-06, 'epoch': 2.16}
+{'eval_loss': 0.33947646617889404, 'eval_accuracy': 0.8574029126213593, 'eval_runtime': 3.2917, 'eval_samples_per_second': 500.66, 'eval_steps_per_second': 62.583, 'epoch': 3.0}
+{'loss': 0.1955, 'learning_rate': 6.991905631011648e-06, 'epoch': 3.23}
+{'eval_loss': 0.41457775235176086, 'eval_accuracy': 0.8731796116504854, 'eval_runtime': 3.2993, 'eval_samples_per_second': 499.498, 'eval_steps_per_second': 62.437, 'epoch': 4.0}
+{'loss': 0.1437, 'learning_rate': 4.991932624429368e-06, 'epoch': 4.31}
+{'eval_loss': 0.5209920406341553, 'eval_accuracy': 0.8677184466019418, 'eval_runtime': 3.3175, 'eval_samples_per_second': 496.756, 'eval_steps_per_second': 62.094, 'epoch': 5.0}
+{'loss': 0.1071, 'learning_rate': 2.9919596178470895e-06, 'epoch': 5.39}
+{'eval_loss': 0.5356698036193848, 'eval_accuracy': 0.8683252427184466, 'eval_runtime': 3.3027, 'eval_samples_per_second': 498.981, 'eval_steps_per_second': 62.373, 'epoch': 6.0}
+{'loss': 0.0865, 'learning_rate': 9.919866112648105e-07, 'epoch': 6.47}
+{'eval_loss': 0.6101276278495789, 'eval_accuracy': 0.8677184466019418, 'eval_runtime': 3.3633, 'eval_samples_per_second': 489.996, 'eval_steps_per_second': 61.25, 'epoch': 7.0}
+{'train_runtime': 534.4736, 'train_samples_per_second': 194.163, 'train_steps_per_second': 6.077, 'train_loss': 0.18315794961205845, 'epoch': 7.0}
+
+
+---------------------------
+Testrun: 1/6
+Time: 02/11/2022 08:01:03
+Trainset: claimbuster
+Testset: claimrank
+Task Type: checkworthy
+---------------------------
+
+
+{
+      "Model": "xlm-roberta-base",
+      "Train": "claimbuster",
+      "Test": "claimrank",
+      "Task": "checkworthy",
+      "Time": "2022-11-02 08:01:34.635867",
+      "Accuracy": 0.8113522537562604,
+      "F1": 0.44292756920743265,
+      "Precision": 0.3794671864847303,
+      "Recall": 0.5318761384335154,
+      "Matthews Correlation": 0.3400620088122429,
+      "Chi Square (p-value)": 2.5999389912625142e-197,
+      "AUC": 0.7844017622930397,
+      "Best Cutoff": 0.00158116954844445
+}
+
+
+---------------------------
+Testrun: 2/6
+Time: 02/11/2022 08:01:34
+Trainset: claimbuster
+Testset: checkthat2019
+Task Type: checkworthy
+---------------------------
+
+
+{
+      "Model": "xlm-roberta-base",
+      "Train": "claimbuster",
+      "Test": "checkthat2019",
+      "Task": "checkworthy",
+      "Time": "2022-11-02 08:02:07.704885",
+      "Accuracy": 0.8351133994298114,
+      "F1": 0.1704131877542282,
+      "Precision": 0.0971916971916972,
+      "Recall": 0.6909722222222222,
+      "Matthews Correlation": 0.2159269478921455,
+      "Chi Square (p-value)": 1.7715324024809777e-239,
+      "AUC": 0.8533387858960378,
+      "Best Cutoff": 0.009473482146859169
+}
+
+
+---------------------------
+Testrun: 3/6
+Time: 02/11/2022 08:02:07
+Trainset: claimbuster
+Testset: checkthat2021
+Task Type: checkworthy
+---------------------------
+
+
+{
+      "Model": "xlm-roberta-base",
+      "Train": "claimbuster",
+      "Test": "checkthat2021",
+      "Task": "checkworthy",
+      "Time": "2022-11-02 08:03:10.643839",
+      "Accuracy": 0.8380060939520814,
+      "F1": 0.07924246199850486,
+      "Precision": 0.0422422954303932,
+      "Recall": 0.6385542168674698,
+      "Matthews Correlation": 0.13402085998952157,
+      "Chi Square (p-value)": 1.866616815367763e-179,
+      "AUC": 0.8118950392113877,
+      "Best Cutoff": 0.0038909264840185642
+}
+
+
+---------------------------
+Testrun: 4/6
+Time: 02/11/2022 08:03:11
+Trainset: claimbuster
+Testset: checkthat2022
+Task Type: checkworthy
+---------------------------
+
+
+{
+      "Model": "xlm-roberta-base",
+      "Train": "claimbuster",
+      "Test": "checkthat2022",
+      "Task": "checkworthy",
+      "Time": "2022-11-02 08:03:19.498000",
+      "Accuracy": 0.34624697336561744,
+      "F1": 0.3518518518518518,
+      "Precision": 0.22343205574912892,
+      "Recall": 0.8274193548387097,
+      "Matthews Correlation": 0.04294649516066514,
+      "Chi Square (p-value)": 0.02425229965276062,
+      "AUC": 0.5559125580602549,
+      "Best Cutoff": 0.9980680346488953
+}
+
+
+---------------------------
+Testrun: 5/6
+Time: 02/11/2022 08:03:19
+Trainset: claimbuster
+Testset: multifc
+Task Type: checkworthy
+---------------------------
+
+
+{
+      "Model": "xlm-roberta-base",
+      "Train": "claimbuster",
+      "Test": "multifc",
+      "Task": "checkworthy",
+      "Time": "2022-11-02 08:04:17.982067",
+      "Accuracy": 0.6139958092941818,
+      "F1": 0.7608394095678463,
+      "Precision": 1.0,
+      "Recall": 0.6139958092941818,
+      "Matthews Correlation": 0.0,
+      "Chi Square (p-value)": 1.0,
+      "AUC": NaN,
+      "Best Cutoff": 1.9998116493225098
+}
+
+
+---------------------------
+Testrun: 6/6
+Time: 02/11/2022 08:04:18
+Trainset: claimbuster
+Testset: germeval
+Task Type: checkworthy
+---------------------------
+
+
+{
+      "Model": "xlm-roberta-base",
+      "Train": "claimbuster",
+      "Test": "germeval",
+      "Task": "checkworthy",
+      "Time": "2022-11-02 08:04:32.420822",
+      "Accuracy": 0.7447468958930277,
+      "F1": 0.4731394775751603,
+      "Precision": 0.7843137254901961,
+      "Recall": 0.3387438249823571,
+      "Matthews Correlation": 0.38992605385503687,
+      "Chi Square (p-value)": 5.457552867516225e-140,
+      "AUC": 0.7925490773351479,
+      "Best Cutoff": 0.0008089587790891528
+}
+
+
+
+-----------------------------------
+-----------------------------------
+-----------------------------------
+Train on germeval
+Time: 02/11/2022 08:04:32
+-----------------------------------
+-----------------------------------
+-----------------------------------
+
+
+
+{
+      "modellanguage": "multilingual",
+      "modelsize": "base",
+      "model": "xlm-roberta-base",
+      "dataset": "germeval",
+      "task": "checkworthy",
+      "labels": 2,
+      "eval_metric": "eval_acc",
+      "per_device_train_batch_size": 64,
+      "per_device_eval_batch_size": 32,
+      "num_train_epochs": 7,
+      "max_steps": -1,
+      "weight_decay": 0.04493336844742171,
+      "learning_rate": 1.0393459720606789e-05
+}
+CUDA out of memory. Tried to allocate 80.00 MiB (GPU 0; 31.75 GiB total capacity; 26.41 GiB already allocated; 44.69 MiB free; 27.21 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+
+
+-----------------------------------
+-----------------------------------
+-----------------------------------
+Train on checkthat2021
+Time: 02/11/2022 08:04:58
+-----------------------------------
+-----------------------------------
+-----------------------------------
+
+
+
+{
+      "modellanguage": "multilingual",
+      "modelsize": "base",
+      "model": "xlm-roberta-base",
+      "dataset": "checkthat2021",
+      "task": "checkworthy",
+      "labels": 2,
+      "eval_metric": "eval_f1",
+      "per_device_train_batch_size": 64,
+      "per_device_eval_batch_size": 32,
+      "num_train_epochs": 7,
+      "max_steps": -1,
+      "weight_decay": 0.23277836451887862,
+      "learning_rate": 3.0990257265289516e-05
+}
+Augmented dataset already exists!
+Original numner: 429
+With Augmentation: 3146
+{'loss': 0.1653, 'learning_rate': 2.7476622654712474e-05, 'epoch': 0.79}
+{'eval_loss': 0.1532837301492691, 'eval_f1': 0.8353885593987687, 'eval_runtime': 6.6019, 'eval_samples_per_second': 677.837, 'eval_steps_per_second': 84.824, 'epoch': 1.0}
+{'loss': 0.0942, 'learning_rate': 2.3962988044135432e-05, 'epoch': 1.59}
+{'eval_loss': 0.10411878675222397, 'eval_f1': 0.8808289009493064, 'eval_runtime': 6.6578, 'eval_samples_per_second': 672.147, 'eval_steps_per_second': 84.112, 'epoch': 2.0}
+{'loss': 0.0602, 'learning_rate': 2.0449353433558387e-05, 'epoch': 2.38}
+{'eval_loss': 0.06770085543394089, 'eval_f1': 0.9348652028993261, 'eval_runtime': 6.5769, 'eval_samples_per_second': 680.413, 'eval_steps_per_second': 85.147, 'epoch': 3.0}
+{'loss': 0.0369, 'learning_rate': 1.6935718822981345e-05, 'epoch': 3.17}
+{'loss': 0.0211, 'learning_rate': 1.3422084212404302e-05, 'epoch': 3.97}
+{'eval_loss': 0.0809440165758133, 'eval_f1': 0.9432123336793741, 'eval_runtime': 6.59, 'eval_samples_per_second': 679.056, 'eval_steps_per_second': 84.977, 'epoch': 4.0}
+{'loss': 0.0129, 'learning_rate': 9.90844960182726e-06, 'epoch': 4.76}
+{'eval_loss': 0.08207591623067856, 'eval_f1': 0.9506967941592686, 'eval_runtime': 6.6166, 'eval_samples_per_second': 676.326, 'eval_steps_per_second': 84.635, 'epoch': 5.0}
+{'loss': 0.0084, 'learning_rate': 6.394814991250217e-06, 'epoch': 5.56}
+{'eval_loss': 0.07077448815107346, 'eval_f1': 0.9639901168351184, 'eval_runtime': 6.593, 'eval_samples_per_second': 678.754, 'eval_steps_per_second': 84.939, 'epoch': 6.0}
+{'loss': 0.0057, 'learning_rate': 2.881180380673175e-06, 'epoch': 6.35}
+{'eval_loss': 0.06704087555408478, 'eval_f1': 0.9654441221803176, 'eval_runtime': 6.5986, 'eval_samples_per_second': 678.174, 'eval_steps_per_second': 84.867, 'epoch': 7.0}
+{'train_runtime': 1180.8162, 'train_samples_per_second': 238.754, 'train_steps_per_second': 3.735, 'train_loss': 0.04623959148281556, 'epoch': 7.0}
+
+
+---------------------------
+Testrun: 1/6
+Time: 02/11/2022 08:25:17
+Trainset: checkthat2021
+Testset: claimrank
+Task Type: checkworthy
+---------------------------
+
+
+{
+      "Model": "xlm-roberta-base",
+      "Train": "checkthat2021",
+      "Test": "claimrank",
+      "Task": "checkworthy",
+      "Time": "2022-11-02 08:25:29.553155",
+      "Accuracy": 0.8754334146654681,
+      "F1": 0.24689440993788822,
+      "Precision": 0.8368421052631579,
+      "Recall": 0.1448087431693989,
+      "Matthews Correlation": 0.3161929651469192,
+      "Chi Square (p-value)": 4.767872275690796e-170,
+      "AUC": 0.6192225307514907,
+      "Best Cutoff": 1.805808824428823e-05
+}
+
+
+---------------------------
+Testrun: 2/6
+Time: 02/11/2022 08:25:29
+Trainset: checkthat2021
+Testset: claimbuster
+Task Type: checkworthy
+---------------------------
+
+
+{
+      "Model": "xlm-roberta-base",
+      "Train": "checkthat2021",
+      "Test": "claimbuster",
+      "Task": "checkworthy",
+      "Time": "2022-11-02 08:26:06.757927",
+      "Accuracy": 0.766753070156801,
+      "F1": 0.09794576828266228,
+      "Precision": 0.6866359447004609,
+      "Recall": 0.0527340293753318,
+      "Matthews Correlation": 0.1432785773444623,
+      "Chi Square (p-value)": 1.5714167254797322e-106,
+      "AUC": 0.6407910745665498,
+      "Best Cutoff": 1.7121852579293773e-05
+}
+
+
+---------------------------
+Testrun: 3/6
+Time: 02/11/2022 08:26:07
+Trainset: checkthat2021
+Testset: checkthat2019
+Task Type: checkworthy
+---------------------------
+
+
+{
+      "Model": "xlm-roberta-base",
+      "Train": "checkthat2021",
+      "Test": "checkthat2019",
+      "Task": "checkworthy",
+      "Time": "2022-11-02 08:26:40.096216",
+      "Accuracy": 0.9707672013956853,
+      "F1": 0.1712907117008444,
+      "Precision": 0.28063241106719367,
+      "Recall": 0.1232638888888889,
+      "Matthews Correlation": 0.17279698414484845,
+      "Chi Square (p-value)": 2.8137328566089886e-152,
+      "AUC": 0.6237336801769053,
+      "Best Cutoff": 1.7721235053613782e-05
+}
+
+
+---------------------------
+Testrun: 4/6
+Time: 02/11/2022 08:26:40
+Trainset: checkthat2021
+Testset: checkthat2022
+Task Type: checkworthy
+---------------------------
+
+
+{
+      "Model": "xlm-roberta-base",
+      "Train": "checkthat2021",
+      "Test": "checkthat2022",
+      "Task": "checkworthy",
+      "Time": "2022-11-02 08:26:48.878317",
+      "Accuracy": 0.771705292286406,
+      "F1": 0.13612565445026178,
+      "Precision": 0.3611111111111111,
+      "Recall": 0.08387096774193549,
+      "Matthews Correlation": 0.0818059529253369,
+      "Chi Square (p-value)": 1.751649635228207e-05,
+      "AUC": 0.6322651666879731,
+      "Best Cutoff": 2.8082678909413517e-05
+}
+
+
+---------------------------
+Testrun: 5/6
+Time: 02/11/2022 08:26:49
+Trainset: checkthat2021
+Testset: multifc
+Task Type: checkworthy
+---------------------------
+
+
+{
+      "Model": "xlm-roberta-base",
+      "Train": "checkthat2021",
+      "Test": "multifc",
+      "Task": "checkworthy",
+      "Time": "2022-11-02 08:27:47.647437",
+      "Accuracy": 0.016504492092195528,
+      "F1": 0.032473033263681034,
+      "Precision": 1.0,
+      "Recall": 0.016504492092195528,
+      "Matthews Correlation": 0.0,
+      "Chi Square (p-value)": 1.0,
+      "AUC": NaN,
+      "Best Cutoff": 1.9999722242355347
+}
+
+
+---------------------------
+Testrun: 6/6
+Time: 02/11/2022 08:27:48
+Trainset: checkthat2021
+Testset: germeval
+Task Type: checkworthy
+---------------------------
+
+
+{
+      "Model": "xlm-roberta-base",
+      "Train": "checkthat2021",
+      "Test": "germeval",
+      "Task": "checkworthy",
+      "Time": "2022-11-02 08:28:02.076241",
+      "Accuracy": 0.6671442215854824,
+      "F1": 0.10983397190293742,
+      "Precision": 0.5771812080536913,
+      "Recall": 0.06069160197600565,
+      "Matthews Correlation": 0.09695160947392407,
+      "Chi Square (p-value)": 6.169238205207483e-10,
+      "AUC": 0.6048471325786506,
+      "Best Cutoff": 1.8995631762663834e-05
+}
