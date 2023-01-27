@@ -1,0 +1,15 @@
+{
+      "Model": "logreg",
+      "Train": "claimbuster",
+      "Test": "multifc",
+      "Task": "checkworthy",
+      "Time": "2022-11-03 21:25:57.105230",
+      "Accuracy": 0.5570852534562212,
+      "F1": 0.7155488143242943,
+      "Precision": 1.0,
+      "Recall": 0.5570852534562212,
+      "Matthews Correlation": 0.0,
+      "Chi Square (p-value)": 1.0,
+      "AUC": NaN,
+      "Best Cutoff": 2.0
+}

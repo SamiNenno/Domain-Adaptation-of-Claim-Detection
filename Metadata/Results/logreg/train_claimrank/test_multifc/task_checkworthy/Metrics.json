@@ -1,0 +1,15 @@
+{
+      "Model": "logreg",
+      "Train": "claimrank",
+      "Test": "multifc",
+      "Task": "checkworthy",
+      "Time": "2022-11-03 18:32:14.329218",
+      "Accuracy": 0.3865253334101449,
+      "F1": 0.557545288349676,
+      "Precision": 1.0,
+      "Recall": 0.3865253334101449,
+      "Matthews Correlation": 0.0,
+      "Chi Square (p-value)": 1.0,
+      "AUC": NaN,
+      "Best Cutoff": 2.0
+}
