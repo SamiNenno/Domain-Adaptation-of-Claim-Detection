@@ -1,0 +1,15 @@
+{
+      "Model": "xlm-roberta-base",
+      "Train": "claimrank",
+      "Test": "claimbuster",
+      "Task": "checkworthy",
+      "Time": "2022-11-02 07:43:00.214824",
+      "Accuracy": 0.8180002549611184,
+      "F1": 0.5105702205462233,
+      "Precision": 0.7206451612903226,
+      "Recall": 0.3953282604848699,
+      "Matthews Correlation": 0.43815490219695585,
+      "Chi Square (p-value)": 0.0,
+      "AUC": 0.8415238082024612,
+      "Best Cutoff": 0.041296590119600296
+}

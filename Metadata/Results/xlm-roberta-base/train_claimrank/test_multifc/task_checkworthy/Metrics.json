@@ -1,0 +1,15 @@
+{
+      "Model": "xlm-roberta-base",
+      "Train": "claimrank",
+      "Test": "multifc",
+      "Task": "checkworthy",
+      "Time": "2022-11-02 07:45:10.441207",
+      "Accuracy": 0.4269927380234794,
+      "F1": 0.5984511716785678,
+      "Precision": 1.0,
+      "Recall": 0.4269927380234794,
+      "Matthews Correlation": 0.0,
+      "Chi Square (p-value)": 1.0,
+      "AUC": NaN,
+      "Best Cutoff": 1.9285497665405273
+}
