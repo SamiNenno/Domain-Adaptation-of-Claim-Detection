@@ -1,0 +1,15 @@
+{
+      "Model": "XGBoost",
+      "Train": "claimbuster",
+      "Test": "germeval",
+      "Task": "checkworthy",
+      "Time": "2022-10-10 09:44:15.305173",
+      "Accuracy": 0.706064947468959,
+      "F1": 0.4654798089448546,
+      "Precision": 0.6049661399548533,
+      "Recall": 0.37826393789696544,
+      "Matthews Correlation": 0.2918919108304036,
+      "Chi Square (p-value)": 2.9533497842397927e-79,
+      "AUC": 0.693422168864082,
+      "Best Cutoff": 0.0096115218475461
+}

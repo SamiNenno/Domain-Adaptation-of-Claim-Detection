@@ -1,0 +1,15 @@
+{
+      "Model": "XGBoost",
+      "Train": "claimbuster",
+      "Test": "checkthat2021",
+      "Task": "checkworthy",
+      "Time": "2022-10-10 09:43:19.842743",
+      "Accuracy": 0.8234442237669646,
+      "F1": 0.2803170855118907,
+      "Precision": 0.19229434224227698,
+      "Recall": 0.5169517884914463,
+      "Matthews Correlation": 0.23554853456042898,
+      "Chi Square (p-value)": 0.0,
+      "AUC": 0.7768044542266391,
+      "Best Cutoff": 0.00788578949868679
+}
