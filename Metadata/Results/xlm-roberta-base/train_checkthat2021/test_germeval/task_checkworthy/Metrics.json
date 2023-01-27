@@ -1,0 +1,15 @@
+{
+      "Model": "xlm-roberta-base",
+      "Train": "checkthat2021",
+      "Test": "germeval",
+      "Task": "checkworthy",
+      "Time": "2022-11-02 08:28:02.076241",
+      "Accuracy": 0.6671442215854824,
+      "F1": 0.10983397190293742,
+      "Precision": 0.5771812080536913,
+      "Recall": 0.06069160197600565,
+      "Matthews Correlation": 0.09695160947392407,
+      "Chi Square (p-value)": 6.169238205207483e-10,
+      "AUC": 0.6048471325786506,
+      "Best Cutoff": 1.8995631762663834e-05
+}
