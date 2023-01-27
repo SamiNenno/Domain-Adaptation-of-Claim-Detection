@@ -1,0 +1,15 @@
+{
+      "Model": "svm",
+      "Train": "claimrank",
+      "Test": "multifc",
+      "Task": "checkworthy",
+      "Time": "2022-11-02 10:04:07.720311",
+      "Accuracy": 0.06841028890745168,
+      "F1": 0.12805995902081313,
+      "Precision": 1.0,
+      "Recall": 0.06841028890745168,
+      "Matthews Correlation": 0.0,
+      "Chi Square (p-value)": 1.0,
+      "AUC": NaN,
+      "Best Cutoff": 1.9999999999999698
+}

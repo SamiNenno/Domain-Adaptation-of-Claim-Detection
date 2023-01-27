@@ -1,0 +1,15 @@
+{
+      "Model": "svm",
+      "Train": "claimbuster",
+      "Test": "checkthat2019",
+      "Task": "checkworthy",
+      "Time": "2022-11-02 12:53:19.675008",
+      "Accuracy": 0.8082850737903979,
+      "F1": 0.4236978801066966,
+      "Precision": 0.4963815789473684,
+      "Recall": 0.3695811903012491,
+      "Matthews Correlation": 0.3165384299853168,
+      "Chi Square (p-value)": 0.0,
+      "AUC": 0.7569576718488671,
+      "Best Cutoff": 0.1958247767276755
+}
