@@ -1,0 +1,15 @@
+{
+      "Model": "svm",
+      "Train": "checkthat2019",
+      "Test": "checkthat2022",
+      "Task": "checkworthy",
+      "Time": "2022-11-02 22:27:46.134570",
+      "Accuracy": 0.5631269456935316,
+      "F1": 0.21210230817217718,
+      "Precision": 0.17293997965412003,
+      "Recall": 0.27419354838709675,
+      "Matthews Correlation": -0.072606390177131,
+      "Chi Square (p-value)": 0.00011522214737926201,
+      "AUC": 0.4271423701367879,
+      "Best Cutoff": 0.12049981047677026
+}

@@ -1,0 +1,15 @@
+{
+      "Model": "logreg",
+      "Train": "checkthat2019",
+      "Test": "checkthat2021",
+      "Task": "checkworthy",
+      "Time": "2022-11-03 23:48:58.525308",
+      "Accuracy": 0.8820249357809661,
+      "F1": 0.43025718608169444,
+      "Precision": 0.4243509400179051,
+      "Recall": 0.4363301626265726,
+      "Matthews Correlation": 0.36451528934920086,
+      "Chi Square (p-value)": 0.0,
+      "AUC": 0.7403112897358504,
+      "Best Cutoff": 0.07547117147829607
+}

@@ -1,0 +1,15 @@
+{
+      "Model": "svm",
+      "Train": "checkthat2019",
+      "Test": "multifc",
+      "Task": "checkworthy",
+      "Time": "2022-11-02 23:34:17.278322",
+      "Accuracy": 0.12082625104433753,
+      "F1": 0.21560210769823931,
+      "Precision": 1.0,
+      "Recall": 0.12082625104433753,
+      "Matthews Correlation": 0.0,
+      "Chi Square (p-value)": 1.0,
+      "AUC": NaN,
+      "Best Cutoff": 1.9999999999999698
+}
