@@ -1,0 +1,15 @@
+{
+      "Model": "GermevalEnsemble",
+      "Train": "claimbuster",
+      "Test": "multifc",
+      "Task": "checkworthy",
+      "Time": "2022-10-06 21:44:50.570139",
+      "Accuracy": 0.6017107264846867,
+      "F1": 0.7513350775957851,
+      "Precision": 1.0,
+      "Recall": 0.6017107264846867,
+      "Matthews Correlation": 0.0,
+      "Chi Square (p-value)": 1.0,
+      "AUC": NaN,
+      "Best Cutoff": 1.8245110511779785
+}
