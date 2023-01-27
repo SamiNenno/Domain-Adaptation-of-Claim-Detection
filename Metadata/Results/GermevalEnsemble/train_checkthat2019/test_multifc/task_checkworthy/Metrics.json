@@ -1,0 +1,15 @@
+{
+      "Model": "GermevalEnsemble",
+      "Train": "checkthat2019",
+      "Test": "multifc",
+      "Task": "checkworthy",
+      "Time": "2022-10-07 15:15:25.254740",
+      "Accuracy": 0.2209018628548466,
+      "F1": 0.3618666980134007,
+      "Precision": 1.0,
+      "Recall": 0.2209018628548466,
+      "Matthews Correlation": 0.0,
+      "Chi Square (p-value)": 1.0,
+      "AUC": NaN,
+      "Best Cutoff": 2.2752017974853516
+}

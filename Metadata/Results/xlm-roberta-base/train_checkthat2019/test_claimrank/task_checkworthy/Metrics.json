@@ -1,0 +1,15 @@
+{
+      "Model": "xlm-roberta-base",
+      "Train": "checkthat2019",
+      "Test": "claimrank",
+      "Task": "checkworthy",
+      "Time": "2022-11-02 07:36:09.656925",
+      "Accuracy": 0.8740208039039424,
+      "F1": 0.25285605483625284,
+      "Precision": 0.772093023255814,
+      "Recall": 0.151183970856102,
+      "Matthews Correlation": 0.3055573935088967,
+      "Chi Square (p-value)": 5.751138489484231e-159,
+      "AUC": 0.7107871009168466,
+      "Best Cutoff": 1.4976480997574981e-05
+}

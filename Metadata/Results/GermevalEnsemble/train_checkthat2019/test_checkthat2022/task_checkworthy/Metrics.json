@@ -1,0 +1,15 @@
+{
+      "Model": "GermevalEnsemble",
+      "Train": "checkthat2019",
+      "Test": "checkthat2022",
+      "Task": "checkworthy",
+      "Time": "2022-10-07 15:15:24.549536",
+      "Accuracy": 0.31649948114839155,
+      "F1": 0.3386880856760375,
+      "Precision": 0.21368243243243243,
+      "Recall": 0.8161290322580645,
+      "Matthews Correlation": -0.004024161898425105,
+      "Chi Square (p-value)": 0.8748393804017554,
+      "AUC": 0.5253483615289556,
+      "Best Cutoff": 0.5386062264442444
+}
